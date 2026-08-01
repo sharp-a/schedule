@@ -2,7 +2,7 @@ package anuar
 
 import "strconv"
 
-func validateSchedule(rows []string) string {
+func ValidateSchedule(rows []string) string {
 
 	switch {
 	case len(rows) == 0 || rows[0] == "":
